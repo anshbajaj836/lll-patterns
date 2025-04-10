@@ -1,11 +1,18 @@
 package StrategyPattern;
 
+import java.util.Vector;
+
 public class Main {
 
     public static void main(String args[]){
-        Vehicle vehicle = new SportsVehicle();
+        Vehicle sportsVehicle = new SportsVehicle();
 
-        vehicle.drive();
+        sportsVehicle.drive();
+
+
+        Vehicle goodsVehicle = new GoodsVehicle();
+
+        goodsVehicle.drive();
     }
 
 }
